@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerBall Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PowerBall Practice</h1>
+        <p>Pick your numbers (1-69) and a PowerBall (1-26)</p>
+        <div class="number-inputs">
+            <input type="number" min="1" max="69" class="player-number">
+            <input type="number" min="1" max="69" class="player-number">
+            <input type="number" min="1" max="69" class="player-number">
+            <input type="number" min="1" max="69" class="player-number">
+            <input type="number" min="1" max="69" class="player-number">
+            <input type="number" min="1" max="26" class="powerball" placeholder="PowerBall">
+        </div>
+        <button id="play-btn">Play</button>
+        <div id="results">
+            <h2>Winning Numbers</h2>
+            <div id="winning-numbers"></div>
+            <h2>Your Picks</h2>
+            <div id="your-picks"></div>
+            <h2>Result</h2>
+            <p id="result-message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
